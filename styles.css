@@ -29,7 +29,9 @@ body {
 }
 
 .attribution {
+    padding-top: 5rem;
     text-align: center;
+    opacity: 80%;
 }
 
 section {
@@ -334,6 +336,9 @@ section {
 }
 
 @media screen and (max-width: 700px) {
+    .attribution {
+        padding-top: 1rem;
+    }
 
     section {
         flex-direction: column;
